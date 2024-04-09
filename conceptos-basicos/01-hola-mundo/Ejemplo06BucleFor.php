@@ -18,6 +18,11 @@
     echo "<h1>Tabla de multiplicar del número $numero</h1>";
 
     for($contador = 1 ; $contador <= 10 ; $contador++) {
+
+        if($numero == 45) {
+            echo "Rompemos el bucle";
+            break;
+        }
         echo "$numero x $contador = ".($numero*$contador)."<br>";
     }
 
