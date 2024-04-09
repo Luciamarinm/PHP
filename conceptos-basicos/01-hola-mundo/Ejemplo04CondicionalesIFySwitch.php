@@ -61,7 +61,14 @@ switch($dia) {
         break;
 }
 
+//Go to
+//Se salta lo que hay en medio
+goto marca;
+echo "<h3>Instrucción 1</h3>";
+echo "<h3>Instrucción 2</h3>";
+echo "<h3>Instrucción 3</h3>";
+echo "<h3>Instrucción 4</h3>";
 
-
-
+marca: 
+echo "Me he saltado 4 echos";
 ?>
