@@ -41,6 +41,26 @@
     echo ($edad/=5).'<br>';
     echo ($edad%=5).'<br>';
 
+    //Operadores de comparación
+    /*
+    == igual
+    === identico(mismo tipo de dato)
+    `!= diferente`
+    <> diferente
+    `!== no identico (mismo tipo de dato)`
+    < menor que
+    > mayor que
+    <= menor o igual que
+    >= mayor o igual que
+    */
+
+    //Operadores lógicos
+    /*
+    && and 
+    || or
+    `! not`
+    */
+
     ?>
 </body>
 </html>
